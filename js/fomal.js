@@ -70,7 +70,7 @@ function tonav() {
   })
   //修复没有弄右键菜单的童鞋无法回顶部的问题
   document.getElementById("page-name").innerText =
-    document.title.split(" | Fomalhaut🥝")[0]
+    document.title.split(" ")[0]
 }
 
 function scrollToTop() {

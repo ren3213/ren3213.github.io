@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.axianr.cn/life/navs/index.html</loc>
+    
+    <lastmod>2023-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.axianr.cn/personal/about/index.html</loc>
     
     <lastmod>2023-06-07</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://www.axianr.cn/personal/curriculumVitae/index.html</loc>
-    
-    <lastmod>2023-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.axianr.cn/life/navs/index.html</loc>
     
     <lastmod>2023-06-07</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.axianr.cn/posts/2022210d.html</loc>
+    <loc>https://www.axianr.cn/posts/2022211d.html</loc>
     
     <lastmod>2023-06-07</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.axianr.cn/posts/2022211d.html</loc>
+    <loc>https://www.axianr.cn/posts/2022210d.html</loc>
     
     <lastmod>2023-06-07</lastmod>
     

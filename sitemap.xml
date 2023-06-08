@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.axianr.cn/life/movies/index.html</loc>
+    
+    <lastmod>2023-06-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.axianr.cn/life/navs/index.html</loc>
     
     <lastmod>2023-06-07</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://www.axianr.cn/life/pictures/index.html</loc>
-    
-    <lastmod>2023-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.axianr.cn/life/movies/index.html</loc>
     
     <lastmod>2023-06-07</lastmod>
     
@@ -121,7 +121,7 @@
 
   <url>
     <loc>https://www.axianr.cn/</loc>
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,21 +129,21 @@
   
   <url>
     <loc>https://www.axianr.cn/tags/hexo-butterfly/</loc>
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.axianr.cn/tags/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.axianr.cn/tags/Markdown/</loc>
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -152,7 +152,7 @@
   
   <url>
     <loc>https://www.axianr.cn/categories/%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

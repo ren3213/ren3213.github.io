@@ -128,13 +128,6 @@
 
   
   <url>
-    <loc>https://www.axianr.cn/tags/Markdown/</loc>
-    <lastmod>2023-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.axianr.cn/tags/hexo-butterfly/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -143,6 +136,13 @@
   
   <url>
     <loc>https://www.axianr.cn/tags/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.axianr.cn/tags/Markdown/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

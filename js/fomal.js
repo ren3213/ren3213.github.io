@@ -4036,29 +4036,14 @@ function createWinbox() {
 <h2>四、背景设置</h2>
 <center><button onclick="resetBg()" style="background:var(--theme-color);display:block;width:35%;padding:15px 0;border-radius:30px;color:white;"><i class="fa-solid fa-arrows-rotate"></i>&nbsp;恢复默认背景</button></center>
 
-<h3>1. 动漫</h3>
-<details class="folding-tag" cyan><summary> 查看动漫背景 </summary>
-              <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201807%2F31%2F20180731133228_dUWaH.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1686645779&t=0d97af3afcc4e68abeb2bf803b76f82c)" class="imgbox" onclick="changeBg('url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201807%2F31%2F20180731133228_dUWaH.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1686645779&t=0d97af3afcc4e68abeb2bf803b76f82c)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27703)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27703)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27704)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27704)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27705)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27705)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27706)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27706)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27707)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27707)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27708)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27708)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27709)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27709)')"></a></div>
-              </div>
-            </details>
-
-
-<h3>2. 风景</h3>
+<h3>2. 壁纸</h3>
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27714)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27714)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27715)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27715)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgbed.link/file/27716)" class="imgbox" onclick="changeBg('url(https://imgbed.link/file/27716)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://pic-bed-2tr.pages.dev/computer/PC-1.webp)" class="imgbox" onclick="changeBg('url(https://pic-bed-2tr.pages.dev/computer/PC-1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://pic-bed-2tr.pages.dev/computer/PC-2.webp)" class="imgbox" onclick="changeBg('url(https://pic-bed-2tr.pages.dev/computer/PC-2.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://pic-bed-2tr.pages.dev/computer/PC-3.webp)" class="imgbox" onclick="changeBg('url(https://pic-bed-2tr.pages.dev/computer/PC-3.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://pic-bed-2tr.pages.dev/computer/PC-4.webp)" class="imgbox" onclick="changeBg('url(https://pic-bed-2tr.pages.dev/computer/PC-4.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://pic-bed-2tr.pages.dev/computer/PC-5.webp)" class="imgbox" onclick="changeBg('url(https://pic-bed-2tr.pages.dev/computer/PC-5.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://pic-bed-2tr.pages.dev/computer/PC-6.webp)" class="imgbox" onclick="changeBg('url(https://pic-bed-2tr.pages.dev/computer/PC-6.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://pic-bed-2tr.pages.dev/computer/PC-7.webp)" class="imgbox" onclick="changeBg('url(https://pic-bed-2tr.pages.dev/computer/PC-7.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://pic-bed-2tr.pages.dev/computer/PC-8.webp)" class="imgbox" onclick="changeBg('url(https://pic-bed-2tr.pages.dev/computer/PC-8.webp)')"></a></div>
               </div>
             </details>
 
-<h3>3. 萌宠</h3>
-
-<details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
-              <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a></div>
-              </div>
-            </details>
 
 <h3>4. 渐变色</h3>
 <details class="folding-tag" cyan><summary> 查看渐变色背景 </summary>

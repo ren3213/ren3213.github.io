@@ -6,7 +6,7 @@
   <link href="https://www.axianr.cn/atom.xml" rel="self"/>
   
   <link href="https://www.axianr.cn/"/>
-  <updated>2023-07-02T14:22:03.794Z</updated>
+  <updated>2023-07-02T14:12:56.259Z</updated>
   <id>https://www.axianr.cn/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>闭包问题</title>
-    <link href="https://www.axianr.cn/posts/5dfd073e.html"/>
-    <id>https://www.axianr.cn/posts/5dfd073e.html</id>
-    <published>2023-02-14T14:04:03.000Z</published>
-    <updated>2023-07-02T14:22:03.794Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="什么是闭包">什么是闭包</h2><p>闭包是指有权访问另一个函数作用域中变量的函数，创建闭包的最常见的方式就是在一个函数内创建另一个函数，创建的函数可以访问到当前函数的局部变量。</p><p>一般就是一个函数 A，return 其内部的函数 B，被 return 出去的 B 函数能够在外部访问 A 函数内部的变量，这时候就形成了一个 B 函数的变量背包，A 函数执行结束后这个变量背包也不会被销毁，并且这个变量背包在 A 函数外部只能通过 B 函数访问。 闭包形成的原理：作用域链，当前作用域可以访问上级作用域中的变量 闭包解决的问题：能够让函数作用域中的变量在函数执行结束之后不被销毁，同时也能在函数外部可以访问函数内部的局部变量。 闭包带来的问题：由于垃圾回收器不会将闭包中变量销毁，于是就造成了内存泄露，内存泄露积累多了就容易导致内存溢出。</p><ol><li><p>闭包的特点<br>让外部访问函数内部变量变成可能，变量会常驻在内存中，可以避免使用全局变量,防止全局变量污染;</p></li><li><p>闭包的好处和坏处<br>好处：可以读取其他函数内部的变量，并将其一直保存在内存中。<br>坏处：可能会造成内存泄漏或溢出。</p></li></ol><p>eg：函数 A 内部有一个函数 B，函数 B 可以访问到函数 A 中的变量，那么函数 B 就是闭包</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">A</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">let</span> b = <span class="number">1</span></span><br><span class="line">  <span class="variable language_">window</span>.<span class="property">B</span> = <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(b)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">A</span>()</span><br><span class="line"><span class="title function_">B</span>() <span class="comment">// 1</span></span><br></pre></td></tr></table></figure><p>————————————————<br>版权声明：本文为 CSDN 博主「陈可儿 ckr」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/weixin_52772897/article/details/128801639">https://blog.csdn.net/weixin_52772897/article/details/128801639</a></p>]]></content>
-    
-    
-    <summary type="html">什么是闭包，闭包的特点和优缺点</summary>
-    
-    
-    
-    <category term="问题" scheme="https://www.axianr.cn/categories/%E9%97%AE%E9%A2%98/"/>
-    
-    
-    <category term="JS" scheme="https://www.axianr.cn/tags/JS/"/>
-    
-  </entry>
   
   <entry>
     <title>跨域问题</title>
@@ -48,6 +27,27 @@
     
     
     <summary type="html">什么是跨域，为什么会出现跨域</summary>
+    
+    
+    
+    <category term="问题" scheme="https://www.axianr.cn/categories/%E9%97%AE%E9%A2%98/"/>
+    
+    
+    <category term="JS" scheme="https://www.axianr.cn/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>闭包问题</title>
+    <link href="https://www.axianr.cn/posts/5dfd073e.html"/>
+    <id>https://www.axianr.cn/posts/5dfd073e.html</id>
+    <published>2023-02-14T14:04:03.000Z</published>
+    <updated>2023-07-02T14:22:03.794Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是闭包">什么是闭包</h2><p>闭包是指有权访问另一个函数作用域中变量的函数，创建闭包的最常见的方式就是在一个函数内创建另一个函数，创建的函数可以访问到当前函数的局部变量。</p><p>一般就是一个函数 A，return 其内部的函数 B，被 return 出去的 B 函数能够在外部访问 A 函数内部的变量，这时候就形成了一个 B 函数的变量背包，A 函数执行结束后这个变量背包也不会被销毁，并且这个变量背包在 A 函数外部只能通过 B 函数访问。 闭包形成的原理：作用域链，当前作用域可以访问上级作用域中的变量 闭包解决的问题：能够让函数作用域中的变量在函数执行结束之后不被销毁，同时也能在函数外部可以访问函数内部的局部变量。 闭包带来的问题：由于垃圾回收器不会将闭包中变量销毁，于是就造成了内存泄露，内存泄露积累多了就容易导致内存溢出。</p><ol><li><p>闭包的特点<br>让外部访问函数内部变量变成可能，变量会常驻在内存中，可以避免使用全局变量,防止全局变量污染;</p></li><li><p>闭包的好处和坏处<br>好处：可以读取其他函数内部的变量，并将其一直保存在内存中。<br>坏处：可能会造成内存泄漏或溢出。</p></li></ol><p>eg：函数 A 内部有一个函数 B，函数 B 可以访问到函数 A 中的变量，那么函数 B 就是闭包</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">A</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">let</span> b = <span class="number">1</span></span><br><span class="line">  <span class="variable language_">window</span>.<span class="property">B</span> = <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(b)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">A</span>()</span><br><span class="line"><span class="title function_">B</span>() <span class="comment">// 1</span></span><br></pre></td></tr></table></figure><p>————————————————<br>版权声明：本文为 CSDN 博主「陈可儿 ckr」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/weixin_52772897/article/details/128801639">https://blog.csdn.net/weixin_52772897/article/details/128801639</a></p>]]></content>
+    
+    
+    <summary type="html">什么是闭包，闭包的特点和优缺点</summary>
     
     
     
